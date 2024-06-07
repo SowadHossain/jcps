@@ -1,0 +1,14 @@
+Worker 1:
+Name: sowad
+Nationality: ban
+Destination: asdfdga
+Age: 1234
+Salary: 1231244160.00
+
+Worker 2:
+Name: abc
+Nationality: asawe
+Destination: fagwea
+Age: 12
+Salary: 1341.00
+

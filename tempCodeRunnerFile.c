@@ -1,4 +1,1 @@
-if (i == SIZE - level) {
-        //     level++;
-        //     if (level > maxLevel) break;
-        // }
+MAX_PEOPLE
