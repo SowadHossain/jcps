@@ -20,20 +20,20 @@ void printMatrix(int mat[3][3]) {
 }
 
 int main() {
-    int matrix1[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    int matrix2[3][3] = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
-    int result[3][3];
+    int A[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int B[3][3] = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
+    int C[3][3];
 
-    addMatrices(matrix1, matrix2, result);
+    addMatrices(A, B, C);
 
     printf("Matrix 1:\n");
-    printMatrix(matrix1);
+    printMatrix(A);
 
     printf("\nMatrix 2:\n");
-    printMatrix(matrix2);
+    printMatrix(B);
 
     printf("\nResultant Matrix:\n");
-    printMatrix(result);
+    printMatrix(C);
 
     return 0;
 }
